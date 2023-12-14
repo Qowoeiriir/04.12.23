@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('app/', include('Artem.urls'))  #http://127.0.0.1:8000/app/dhbhjsfd
+    path('app/', include('Artem.urls'))  
 ]
